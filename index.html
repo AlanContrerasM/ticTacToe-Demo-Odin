@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>New Webpage</title>
+  <title>Tic-Tac-Toe Demo</title>
   <meta name="description" content="New Webpage">
 
   <link rel="stylesheet" href="css/reset.css">
@@ -14,11 +14,33 @@
 </head>
 
 <body>
-  
-  <header></header>
-  <nav></nav>
-  <main></main>
-  <footer></footer>
+  <div class="container">
+    <header class="center-grid">
+      <h1>Tic-Tac-Toe</h1>
+    </header>
+    <nav>
+      <div class="center-grid">Play "X"</div>
+      <div class="center-grid" id="restart">RESTART</div>
+      <div class="center-grid">Play "O"</div>
+    </nav>
+    <main class="center-grid">
+      <div id="gameBoard">
+        <div id="fieldContainer">
+
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+          <div class="field"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="center-grid">Alan Contreras CopyRight &copy; 2021</footer>
+  </div>
   <script src="js/scripts.js"></script>
 </body>
 </html>
